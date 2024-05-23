@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Gym Website</title>
+   
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+        color:white;
+        margin:0px;
+        padding:0px;
+        background: url('abs-1850926_960_720.jpg');
+        background-repeat: no-repeat;
+        background-size:2700px 1400px;
+        
+    }
+
+    .left{
+        line-height: 12px;
+        display:inline-block;
+        position: absolute;
+        left:20px;
+        top:2px;
+        text-align: center;
+        padding-top: 10px;     
+
+
+    }
+    .left img{
+        background-color: black;
+        color: white;
+        width:70px;
+        filter: invert(100%);
+        
+        
+
+    }
+    .mid{
+        display:block;
+        width: 40%;
+        margin:20px auto;
+
+    }
+    .right{
+        display:inline-block;
+        position:absolute;
+        right:20px;
+        top:20px;
+    }
+    .btn a{
+        color: white;
+        text-decoration: none;
+    }
+    .navbar{
+        display: inline-block;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .navbar li{
+        display: inline-block;
+        text-decoration: none;
+    }
+    .navbar li a{
+        color:white;
+        text-decoration:none;
+        padding:32px 23px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color:grey;
+
+    }
+    .btn{
+        color:white;
+        margin:0px 5px;
+        padding:20px 20px;
+        cursor:pointer;
+        background: none;
+    }
+    .container{
+        text-align: center;
+        border-radius: 6px;
+        width:450px;
+        border:2px solid white;
+        margin:50px 50px;
+        padding:20px 20px;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+    .formg input{
+        font-size: 20px;
+        text-align: center;
+        border:2px solid white;
+        margin:22px auto;
+        padding:2px 2px;
+        display: block;
+        border-radius: 2px;  
+        width: 300px;
+    }
+    .formg button{
+        color: white;
+        border:2px solid white;
+        background-color: black;
+        margin:22px auto;
+        padding:2px 2px;
+        display: block;
+        border-radius: 2px; 
+        width: 300px;
+
+    }
+</style>
+<body>
+    <header class="header">
+    <div class="left">
+    <img src="vector-object-and-icons-for-sport-label-gym-badge-fitness-logo-design.jpg" alt="">
+
+    <p>Chiya Fitness</p>
+
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+    </div>
+    <div class="right">
+        <button class="btn"><a href="tel:9103225456">Call Us Now</a></button>
+        <button class="btn">Email Us</button>
+
+    </div>
+    </header>
+    <div class="container">
+        <h1>JOIN OUR GYM</h1>
+        <form action="noaction.php">
+        <div class="formg">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div> 
+        <div class="formg">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div> 
+        <div class="formg">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div> 
+        <div class="formg">
+            <input type="text" name="" placeholder="Enter your Localty">
+        </div> 
+    
+        <div class="formg">
+            <button class="submit">Submit</button>
+        </div> 
+            
+
+        </form>
+    </div>
+    
+</body>
+</html>
